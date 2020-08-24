@@ -31,14 +31,14 @@ or other financial instrument traded on an exchange. Here the prediction is the 
 ## Results
 Initially, the r2 score on testing data was 0.74709 and mse score was 28572.16 for predicting the next day's closing price.  
 
-<img src='https://github.com/zxhx/DSND_capstone_project_investment and trading/blob/master/result/single_attribute/output_test.png' width=400px>
+<img src='https://github.com/zxhx/DSND_capstone_project_investment and trading/result/single_attribute/output_test.png' width=400px>
 
 After hypermeter optimization the r2 score increased to 0.97720 and mse value decreased to 2575.15.  
 
-<img src='https://github.com/zxhx/DSND_capstone_project_investment and trading/blob/master/result/hyperParaModels/output.png' width=400px>
+<img src='https://github.com/zxhx/DSND_capstone_project_investment and trading/result/hyperParaModels/output.png' width=400px>
 
 Then, we applied feature importance after that the r2 score increased to 0.98379 and mse value decreased to 1830.83  
 
-<img src='https://github.com/zxhx/DSND_capstone_project_investment and trading/blob/master/result/final_model/output_test.png' width=400px>
+<img src='https://github.com/zxhx/DSND_capstone_project_investment and trading/result/final_model/output_test.png' width=400px>
 
   
