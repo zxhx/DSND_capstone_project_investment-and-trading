@@ -23,7 +23,7 @@ or other financial instrument traded on an exchange. Here the prediction is the 
 * <strong>Utils Folder</strong>  
   It contains all utility python scripts for plotting, training model, saving and loading models and creating input data
   
-* Investment_and_Trading_LSTM.ipynb
+* **Investment_and_Trading_LSTM.ipynb**
   
   The main script file to realize the project, including data fetching, data preprocessing, data loading and predictions: 
   
@@ -31,7 +31,11 @@ or other financial instrument traded on an exchange. Here the prediction is the 
   	- finding best pair of hyperparameters model that could help in refining the model
   	- finding the best selecting of features for predicting the next day's closing price
   	- At last, after getting the most optimized model, predicting the next day's closing price and get final result
+- **DSND_capstone_project_investment and trading.pdf**  
+  The capstone report.
+
 ## Results
+
 Initially, the r2 score on testing data was 0.793 and mse score was 2.799 for predicting the next day's closing price.  
 
 <img src='https://github.com/zxhx/DSND_capstone_project_investment-and-trading/blob/master/result/single_attribute/output_test.png' width=400px>
