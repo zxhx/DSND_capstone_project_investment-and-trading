@@ -13,21 +13,24 @@ or other financial instrument traded on an exchange. Here the prediction is the 
 ## File Description
 * <strong>Data Folder</strong>  
   It contains the historical data of cmb China stock.
+  
 * <strong>Model Folder</strong>  
   It contains the saved keras models in .h5 and .json format
+  
 * <strong>Result Folder</strong>  
   It contains all the plots, Score, and Prediction value in excel format
+  
 * <strong>Utils Folder</strong>  
   It contains all utility python scripts for plotting, training model, saving and loading models and creating input data
-* <strong>prediction_single.py</strong>  
-  This script helps in predicting next day's closing price using only one feature (opening price)
-* <strong>hyperparameters.py</strong>
-  This script helps in finding the best pair of hyperparameters that could help in refining the model
-* <strong>feature_importance.py</strong>  
-  This script helps in finding the best selecting of features for predicting the next day's closing price
-* <strong>final_model.py</strong>  
-  This script is the most optimized one for predicting the next day's closing price
   
+* Investment_and_Trading_LSTM.ipynb
+  
+  The main script file to realize the project, including data fetching, data preprocessing, data loading and predictions: 
+  
+  	- single feature as opening price to predict the next day's closing price
+  	- finding best pair of hyperparameters model that could help in refining the model
+  	- finding the best selecting of features for predicting the next day's closing price
+  	- At last, after getting the most optimized model, predicting the next day's closing price and get final result
 ## Results
 Initially, the r2 score on testing data was 0.793 and mse score was 2.799 for predicting the next day's closing price.  
 
