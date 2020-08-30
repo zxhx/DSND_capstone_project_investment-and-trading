@@ -44,7 +44,7 @@ After hypermeter optimization the r2 score increased to 0.89 and mse value decre
 
 <img src='https://github.com/zxhx/DSND_capstone_project_investment-and-trading/blob/master/result/hyperParaModels/output.png' width=400px>
 
-Then, we applied feature importance after that the r2 score increased to 0.91 and mse value decreased to 1.09.
+Then, we applied feature importance after that the r2 score increased to 0.91 and mse value decreased to 1.23.
 
 <img src='https://github.com/zxhx/DSND_capstone_project_investment-and-trading/blob/master/result/final_model/output_test.png' width=400px>
 
