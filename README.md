@@ -1,9 +1,10 @@
 # Stock Price Prediction 
 ## Introduction
 Stock market prediction is the act of trying to determine the future value of a company stock
-or other financial instrument traded on an exchange. Here the prediction is the next day's closing price of cmb China with the stock code 600036.SH.
+or other financial instrument traded on an exchange. Here the prediction is the next day's closing price of cmb China with the stock code 600036.SH. The jupyter notebook script could run on the public environment of google colab. 
 
 ## Libraries
+* google.colab
 * Numpy
 * Pandas
 * Scikit Learn
